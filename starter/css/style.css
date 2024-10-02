@@ -1,0 +1,299 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+/* Cores
+Links do Menu no Topo, texto acima do valor, texto em baixo das fotos: #505050
+Botão, R$ valor, fundo da imagem e etc: #2E68FF
+Títulos maiores: #040315
+Fundo do rodapé: #1A1A1A
+*/
+
+/* Tamanho das fontes 
+Boat Stone Bluetooth Speaker - 54px
+Desfrute de uma conectividade perfeita com a mais recente tecnologia - 64px
+Valor, preço - 64px
+Bluetooth 5.3 - 20px
+Textos e paragrafos - 18px
+Itens do menu - 16px
+Leve sua música para qualquer lugar com este alto-lante compacto e leve - 54px
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1{
+	color: #040315;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar a {
+	font-size: 16px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #505050;
+}
+
+.main-content {
+    padding: 80px 0 100px;
+}
+
+.product-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 48px;
+}
+
+.product-image-container {
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.product-image {
+    width: 120%;
+    max-width: 600px;
+    height: auto;
+}
+
+.product-details {
+    width: 490px;
+}
+
+.product-details h1 {
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-details p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #505050;
+}
+
+.price {
+    display: block;
+    font-size: 64px;
+    color: #2E68FF;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #2E68FF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+.disclaimer {
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+
+.info-section {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.info-section h2 {
+    color: #007BFF;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.info-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.product-features {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+.features-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.bluetooth-label {
+    color: #007BFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.features-title {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-image-container {	
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.feature-image {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.feature-item p {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #505050;
+}
+
+.promo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007BFF;
+    padding: 96px 96px;
+    color: white;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.promo-banner {
+    display: flex;
+    gap: 32px;
+    width: 900px;
+}
+
+.promo-image {
+    width: 300px;
+}
+
+.promo-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	width: 568px;
+}
+
+.promo-details h1 {
+	font-size: 54px;
+}
+
+.promo-details h3 {
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.promo-details p {
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1A1A1A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1216px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 48px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-whatsapp {
+    display: flex;
+    align-items: center;
+}
+
+.footer-whatsapp img {
+    width: 32px;
+    height: 32px;
+}
+
+.promo-details img{
+	width: 4%;
+	height: auto;
+}
+
+
